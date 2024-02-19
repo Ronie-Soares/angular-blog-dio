@@ -4,10 +4,10 @@
             srcset="">
     </div>
     <div class="big-card_title">
-        <h1><a href="">{{cardTitle}}</a></h1>
+        <h1><a [routerLink]="['content',id]" href="">{{cardTitle}}</a></h1>
     </div>
     <div class="big-card_description">
-        <a>
+        <a [routerLink]="['content',id]">
             <p>{{cardDescription}}</p>
         </a>
     </div>
